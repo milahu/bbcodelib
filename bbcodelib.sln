@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bbcodelib", "bbcodelib\bbcodelib.vcproj", "{66B8BF53-08ED-4369-BBEF-ABCF0E9FD70B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testsuite", "testsuite\testsuite.vcproj", "{2E4CFB2F-C62C-4D85-9655-60667383CABF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{66B8BF53-08ED-4369-BBEF-ABCF0E9FD70B} = {66B8BF53-08ED-4369-BBEF-ABCF0E9FD70B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{66B8BF53-08ED-4369-BBEF-ABCF0E9FD70B}.Debug.ActiveCfg = Debug|Win32
+		{66B8BF53-08ED-4369-BBEF-ABCF0E9FD70B}.Debug.Build.0 = Debug|Win32
+		{66B8BF53-08ED-4369-BBEF-ABCF0E9FD70B}.Release.ActiveCfg = Release|Win32
+		{66B8BF53-08ED-4369-BBEF-ABCF0E9FD70B}.Release.Build.0 = Release|Win32
+		{2E4CFB2F-C62C-4D85-9655-60667383CABF}.Debug.ActiveCfg = Debug|Win32
+		{2E4CFB2F-C62C-4D85-9655-60667383CABF}.Debug.Build.0 = Debug|Win32
+		{2E4CFB2F-C62C-4D85-9655-60667383CABF}.Release.ActiveCfg = Release|Win32
+		{2E4CFB2F-C62C-4D85-9655-60667383CABF}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
