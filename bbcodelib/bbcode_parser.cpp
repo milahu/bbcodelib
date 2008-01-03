@@ -104,14 +104,14 @@ namespace bbcode{
 //[url]							    [     ]   BOLD  WORD  COLON   QUOTE SP  EQAL  /	  ITAL UNDER HEADER					    TER  PB  RET MEM SUP 																																
 						  /*C76*/{C25,  C77,  C25,	  C25, C25,	  C25,  C76,C82, C25, C25, C25,	  C25,	  C25,	  C25,	    NT,  NO, C1, YES,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25, C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,},  // found [url
 						  /*C77*/{C25,  C25,  C25,	  C78, C25,	  C25,  C77,C25, C25, C25, C25,	  C25,	  C25,	  C25,	    NT,  NO, C1, YES,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25, C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,},  // found [url]
-						  /*C78*/{C79,  C25,  C25,	  C78, C78,	  C25,  C79,C25, C78, C25, C25,	  C25,	  C25,	  C25,	    NT,	 NO, C1, YES,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25, C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,},  // found [url]WORD
+						  /*C78*/{C79,  C25,  C25,	  C78, C78,	  C25,  C79,C78, C78, C25, C25,	  C25,	  C25,	  C25,	    NT,	 NO, C1, YES,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25, C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,},  // found [url]WORD
 						  /*C79*/ {C1,	 C1,   C1,	   C1,  C1,	   C1,   C1, C1,  C1,  C1,  C1,	   C1,	   C1,	   C1,	    T,   NO, C2, NO,  C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1,  C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1,},  // found [url]WORD[
 //[/url]						    [     ]   BOLD  WORD  COLON   QUOTE SP  EQAL  /	  ITAL UNDER HEADER					    TER  PB  RET MEM SUP 																																
 						  /*C80*/{C25,  C81,  C25,	  C25, C25,	  C25,  C74,C25, C25, C25, C25,	  C25,	  C25,	  C25,	    NT,  NO, C1, YES,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25, C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,},  // found [/url
 						  /*C81*/ {C1,	 C1,   C1,	   C1,  C1,	   C1,   C1, C1,  C1,  C1,  C1,	   C1,	   C1,	   C1,	    T,   NO, C1, NO,  C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1,  C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1,},  // found [/url]
 
 						  /*C82*/{C25,  C25,  C25,	  C83, C25,	  C25,  C82,C25, C25, C25, C25,	  C25,	  C25,	  C25,	    NT,	 NO, C1, YES,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25, C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,},  // found [url=hello +
-						  /*C83*/{C25,  C84,  C25,	  C83, C83,	  C25,  C83,C25, C83, C25, C25,	  C25,	  C25,	  C25,	    NT,	 NO, C1, YES,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25, C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,},  // found [url=hello +
+						  /*C83*/{C25,  C84,  C25,	  C83, C83,	  C25,  C83,C83, C83, C25, C25,	  C25,	  C25,	  C25,	    NT,	 NO, C1, YES,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25, C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,},  // found [url=hello +
 						  /*C84*/ {C1,	 C1,   C1,	   C1,  C1,	   C1,   C1, C1,  C1,  C1,  C1,	   C1,	   C1,	   C1,	    T,   NO, C1, NO,  C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1,  C1, C1, C1, C1, C1, C1, C1, C1, C1, C1, C1,},  // found [url=hello w]
 //[quote]						    [     ]   BOLD  WORD  COLON   QUOTE SP  EQAL  /	  ITAL UNDER HEADER					    TER  PB  RET MEM SUP 																																
 						  /*C85*/{C25,  C86,  C25,	  C25, C25,	  C25,  C85,C89, C25, C25, C25,	  C25,	  C25,	  C25,	    NT,  NO, C1, YES,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25, C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,C25,},  // found [quote
@@ -791,8 +791,13 @@ namespace bbcode{
 					res.insert(p, tmp);
 				}
 			}
+		}else{			
+			size_t p = res.find(_SCHEMA_MACRO_PREFIX + (*ci).first);
+			//in case we have to clean up our macros
+			if(p != string::npos)
+				res.erase(p, (*ci).first.length() + _SCHEMA_MACRO_PREFIX.length());			
 		}
-		
+
 		return res;
 	}
 
