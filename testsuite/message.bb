@@ -1,4 +1,3 @@
-
 [green][size=200]тест[/size][/green]
 
 [*] First line.
