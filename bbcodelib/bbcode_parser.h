@@ -116,7 +116,7 @@ namespace bbcode{
 		void   source_stream(istream& source_stream){	_pconf._source_stream = &source_stream;	}
 		istream*  source_stream(void) const{	return _pconf._source_stream; }
 
-		size_t read_buffer_size(size_t buffer_size)			 throw(out_of_range);
+		size_t read_buffer_size(size_t buffer_size);
 
 		size_t read_buffer_size( void )	  const	   {	return _pconf._read_buffer_size;	}
 

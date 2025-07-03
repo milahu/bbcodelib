@@ -171,7 +171,7 @@ namespace bbcode{
 
 //--------------------------------
 // parser::max_form_field_num
-	size_t parser::read_buffer_size(size_t read_buffer_size) throw(out_of_range){	
+	size_t parser::read_buffer_size(size_t read_buffer_size) {	
 		if(read_buffer_size <= 0) throw out_of_range(get_module_msg("Read buffer size must be more than 0"));
 		return myswap(_pconf._read_buffer_size, read_buffer_size);	
 	}
